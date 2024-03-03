@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/scrollable"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dashrealative">
+
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="150dp">
+                <include layout="@layout/toolbar_main" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="150dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:id="@+id/linearlayout">
+
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/dashannoucement"
+                    android:layout_weight="0.5"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/dashannouce"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/society" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dashannouce"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="My Society"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/darker_gray" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/Dashevent"
+                    android:layout_weight="0.5"
+                    >
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/dashevent"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/planner" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dashevent"
+                            android:layout_centerHorizontal="true"
+
+                            android:layout_marginTop="10dp"
+                            android:text="Events"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:id="@+id/horline"
+                android:layout_below="@+id/linearlayout"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_below="@id/horline"
+                android:id="@+id/linearlayout2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/DashPayment">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/dashpayment"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/pay" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dashpayment"
+                            android:layout_marginTop="10dp"
+                            android:text="Payment"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+
+                    android:background="@android:color/darker_gray" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/Complaint">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/dashcomplaint"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/megaphone" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dashcomplaint"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Announcement"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/horline2"
+                android:layout_below="@+id/linearlayout2"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_below="@id/horline2"
+                android:id="@+id/linearlayout3">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Firealarm"
+                    android:layout_width="0dp"
+
+                    android:layout_height="150dp"
+                    android:layout_weight="0.5">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/dashfirealarm"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/warning" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dashfirealarm"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Notice"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/darker_gray" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/Intruder">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:id="@+id/dashintruder"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/visitor" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dashintruder"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="vistor maintance"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/horline3"
+                android:layout_below="@+id/linearlayout3"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_marginBottom="85dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_below="@id/horline3"
+                android:id="@+id/linearlayout4">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/Emergency">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+
+                            android:id="@+id/help"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/help" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/help"
+                            android:layout_centerHorizontal="true"
+
+                            android:layout_marginTop="10dp"
+                            android:text="Help"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+
+                            />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+
+
+                    android:background="@android:color/darker_gray" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+
+                    android:layout_weight="0.5"
+                    android:id="@+id/DashAdminPanel">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/Dashadmin"
+                            android:layout_width="76dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:src="@drawable/bedroom" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Dashadmin"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Room maintenance"
+                            android:textAlignment="center"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+
+                            />
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+
+                android:layout_below="@+id/linearlayout4"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_below="@id/linearlayout4"
+                android:id="@+id/linearlayout5"
+                android:visibility="gone">
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+
+                    android:layout_weight="0.5"
+                    android:onClick="distresscall">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_margin="5dp"
+                            android:id="@+id/dashdistress"
+                            android:src="@drawable/ic_launcher_background"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dashdistress"
+                            android:layout_marginTop="10dp"
+                            android:text="Distress Call"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:layout_centerHorizontal="true"
+
+                            />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

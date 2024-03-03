@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MYsociety_page">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<ImageView
+    android:background="@drawable/societybuilding"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+</ImageView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/Rowtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="My Society"
+            android:textColor="#0066ff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/Rowtext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="A society is a group of individuals involved in persistent social interaction, or a large social group sharing the same spatial or social territory, typically subject to the same political authority and dominant cultural expectations. Societies are characterized by patterns of relationships (social relations) between individuals who share a distinctive culture and institutions; a given society may be described as the sum total of such relationships among its constituent of members. In the social sciences, a larger society often exhibits stratification or dominance patterns in subgroups."
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

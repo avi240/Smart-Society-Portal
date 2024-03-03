@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutFragment">
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/about"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/Rowtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="About Society"
+            android:textColor="#0066ff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/Rowtext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="A society is a group of individuals involved in persistent social interaction, or a large social group"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/Rowtext2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="Rules Society"
+            android:textColor="#0066ff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+
+        <TextView
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:id="@+id/Rowtext3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="1. Name of The Society :\nName of the Society shall be: “THE SIMULATION SOCIETY”.\n\n2. Membership :\n2.1 LIFE MEMBER:
+The Membership shall be of following categories:- 2.1 Life Member:\n\nMembers of the medical profession with the following post graduate degrees as approved by the executive committee of the SOCIETY:
+DM ( Cardiology ), DNB ( Cardiology )
+MD/DNB ( Medicine/Pediatrics/Critical Care, Anaesthesia, Cardiac Anaesthesia, Emergency Medicine, Trauma and pulmonology )
+MCH/DNB ( Cardiothoracic surgery)
+Cardiac Anesthetists
+MRCP/FRCP/American Board Certified Cardiologist
+Post Graduate Diploma in Clinical Cardiology (PGDCC)\n\n2.2 TECHNICIAN LIFE MEMBERSHIP:\nRecognized technicians in simulation as certified by the Head of the Department and approved by credential and the executive committee. They will not be entitled to hold any office will be regarded as nonvoting associated members."
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#000" />
+    </LinearLayout>
+
+
+
+</ScrollView>

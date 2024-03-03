@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.learncodewithrk.smartsociety">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartSociety">
+        <activity
+            android:name=".fragment.Book_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.Room1"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.RoomM"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.notice"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.Announcement"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.fetchdata"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.vistor_page"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.payment_page"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.help_page"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.MYsociety_page"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.EventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.forgetpass"
+            android:exported="false" />
+        <activity
+            android:name=".login.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginandregisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".slider.Welcome_slider_1"
+            android:exported="false" />
+        <activity
+            android:name=".Home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "764535943505",
+    "project_id": "smart-society-bae9c",
+    "storage_bucket": "smart-society-bae9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764535943505:android:0eb731fbb468abd009e370",
+        "android_client_info": {
+          "package_name": "in.learncodewithrk.smartsociety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764535943505-codvf0gnl8r1f5ndl51ufp9d70rsl6sj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.learncodewithrk.smartsociety",
+            "certificate_hash": "26bbe4695f8e9d3f19719843f06af3fce76361f7"
+          }
+        },
+        {
+          "client_id": "764535943505-2rp99cri7cobcb5jkof92uhqn4hf9dup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3BslyeqYOrWnfBD-pHoEElJlgwm8P18o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764535943505-2rp99cri7cobcb5jkof92uhqn4hf9dup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

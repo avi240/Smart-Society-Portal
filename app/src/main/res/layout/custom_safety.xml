@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:background="@color/white"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_columnWeight = "1"
+        android:layout_rowWeight = "1"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="30dp"
+        android:padding="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="#2a716e6e"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/background"
+                android:layout_height="200dp"
+                android:id="@+id/stripimage"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/stiptitle"
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_margin="7dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/black"
+                android:text="Safety Tip Title"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:background="@color/purple_500"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stipdesc"
+                android:minLines="3"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Safety Tips Description"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

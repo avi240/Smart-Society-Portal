@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/ic_baseline_call_24"
+            android:title="Emergencycall" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_baseline_maps_ugc_24"
+            android:title="Society Area" />
+
+        <item
+            android:id="@+id/Share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share App" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Logout" />
+    </group>
+</menu>

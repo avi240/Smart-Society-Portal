@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Smart Society</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="about1">About us</string>
+    <string name="about_text">\nLearCode With Rk\n\nFinal Year Projects For BE / BTech / B.SC/BCA/ME / MTech / MCA / Diploma Graduates Final Year Project guidance for
+
+B.E/B.TECH/M.E/M.Tech(CSE,ISE,IT,ECE,EEE)
+BSC/BCA/MSC/MCA/MS(IT)/MS(Software Engg)
+
+        </string>
+</resources>
